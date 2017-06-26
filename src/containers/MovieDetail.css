@@ -1,0 +1,18 @@
+.movie-detail-wrap{
+	width: 100%;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+.movie-detail-btn{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	background-color: #e54847;
+	text-decoration: none;
+}

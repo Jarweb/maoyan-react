@@ -1,0 +1,38 @@
+.cinema-intro-wrap{
+	padding: 0 8px 20px;
+}
+.cinema-intro-title{
+	padding-top: 10px;
+	font-size: 15px;
+	color: #262626;
+}
+.cinema-intro-title span {
+	color: #e54847;
+}
+.cinema-intro-ad{
+	padding-top: 4px;
+	padding-bottom: 6px;
+	font-size: 12px;
+	color: #999;
+}
+.cinema-intro-tag{
+	overflow: hidden;
+}
+.cinema-intro-tag span{
+	float: left;
+	font-size: 10px;
+	color: #00804c;
+	padding: 2px 4px;
+	border: 1px solid #00804c;
+	margin-right: 6px;
+	margin-bottom: 4px;
+}
+.cinema-intro-tip{
+	padding-top: 4px;
+	font-size: 12px;
+	color: #999;
+}
+.cinema-intro-text{
+	font-size: 12px;
+	color: #999;
+}

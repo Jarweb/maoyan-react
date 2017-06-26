@@ -1,0 +1,46 @@
+.cinema-item-wrap{
+    padding: 12px 0;
+    position: relative;
+    line-height: 1;
+    overflow: hidden;
+    border-bottom: 1px solid #E6E6E6;
+    display: block;
+    text-decoration: none;
+}
+.cinema-item-wrap:last-child{
+	border-bottom: 1px solid #fff;
+}
+.cinema-item-title-wrap{
+	font-size: 15px;
+	color: #262626;
+}
+.cinema-item-title{
+	
+}
+.cinema-item-tip{
+	padding-left: 10px;
+	font-size: 13px;
+	color: #e54847;
+}
+.cinema-item-subtitle-wrap{
+	padding-top: 10px;
+	font-size: 12px;
+	color: #999;
+	overflow: hidden;
+}
+.cinema-item-subtitle{
+	float: left;
+	width: 80%;
+}
+.cinema-item-subtip{
+	display: block;
+	width: 20%;
+	text-align: right;
+	overflow: hidden;
+}
+/*.ellipse{
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}*/

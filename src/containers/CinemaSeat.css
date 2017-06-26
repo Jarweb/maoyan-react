@@ -1,0 +1,79 @@
+.seat-head{
+	padding: 10px 8px;
+}
+.seat-name{
+	font-size: 15px;
+	font-weight: bold;
+	color: #262626;
+}
+.seat-tip{
+	font-size: 12px;
+	color: #999;
+	padding-top: 4px;
+}
+.seat-tip span {
+	padding-right: 10px;
+}
+.seat-foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.seat-price{
+	float: left;
+	width: 60%;
+	text-align: center;
+	color: #e54847;
+}
+.seat-btn{
+	float: left;
+	width: 40%;
+	background-color: #e54847;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+.seat-wrap{
+	background-color: #efeff4;
+	padding-bottom: 10px;
+	overflow: auto;
+	position: relative;
+}
+.seat-stage{
+	text-align: center;
+	font-size: 13px;
+	color: #999;
+	padding-bottom: 10px;
+	background-color:#efeff4;
+}
+.seat-stage span{
+	padding: 2px 6px;
+	background-color: #c1c1c1;
+}
+.seat-inner-wrap{
+	
+}
+.seat-row{
+	line-height: .7;
+	overflow: hidden;
+	padding-top: 2px;
+	text-align: center;
+}
+.seat-col{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	margin-right: 4px;
+}
+.seat-col.empty{
+	background-color: #efeff4;
+}
+.seat-active{
+	background-color: #e54847;
+}

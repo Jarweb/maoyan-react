@@ -1,0 +1,44 @@
+.mine-wrap{
+
+}
+.mine-head{
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: #e54847;
+	overflow: hidden;
+}
+.avatar-img{
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	background-color: #efeff4;
+	float: left;
+}
+.mine-name{
+	font-size: 15px;
+	color: #fff;
+	overflow: hidden;
+	padding-left: 14px;
+	line-height: 3.8;
+}
+.mine-item-wrap{
+	border-top: 8px solid #efeff4;
+}
+.mine-item{
+	position: relative;
+	border-bottom: 1px solid #efeff4;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #262626;
+	padding: 0 14px;
+}
+.mine-item:after{
+	content: '>';
+	color: #999;
+	position: absolute;
+	right: 14px;
+	top: 0;
+}

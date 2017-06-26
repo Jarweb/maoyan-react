@@ -1,0 +1,41 @@
+.city-wrap{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: -100%;
+	background-color: #f5f5f5;
+	transision: all .3s ease-in;
+	z-index: 100;
+	overflow: hidden;
+}
+.city-in{
+	top: 0;
+	bottom: 0;
+}
+.city-out{
+
+}
+.city-title{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 14px;
+	font-size: 14px;
+	color: #262626;
+	background-color: #ebebeb;
+}
+.city-item-wrap{
+	padding: 0 14px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+.city-item{
+	float: left;
+	width: 30%;
+	padding: 4px 0;
+	margin-right: 3%;
+	margin-top: 14px;
+	background-color: #fff;
+	font-size: 15px;
+	color: #262626;
+	text-align: center;
+}

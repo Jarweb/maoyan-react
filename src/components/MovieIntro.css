@@ -1,0 +1,104 @@
+.movie-intro-wrap{
+
+}
+.movie-intro-head{
+	position: relative;
+	width: 100%;
+	height: 150px;
+}
+.intro-bg{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+	filter: blur(.6rem);
+	-webkit-filter: blur(.6rem);
+	background-size: cover;
+	background-image: gray;
+	background-repeat: no-repeat;
+	background-position-y: 40%;
+}
+.intro-filter{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	background-color: #40454d;
+	opacity: .55;
+	z-index: 98;
+}
+.intro-info{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	z-index: 100;
+	padding: 14px;
+}
+.intro-head-img{
+	float: left;
+	width: 80px;
+    vertical-align: top;
+}
+.intro-head-desc{
+	color: #fff;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.intro-head-title{
+	font-size: 14px;
+	padding-bottom: 6px;
+}
+.intro-head-sc-wrap{
+	overflow: hidden;
+	padding-bottom: 6px;
+}
+.intro-head-sc-left{
+    font-size: 13px;
+}
+.intro-head-sc-right{
+	float: left;
+	width: 45%;
+	padding-left: 10px;
+}
+.intro-head-sc-title{
+	font-size: 13px;
+	padding-bottom: 6px;
+}
+.intro-head-sc{
+	padding-left: 10px;
+}
+.intro-head-sc span{
+	font-size: 10px;
+
+}
+.intro-head-subtitle{
+	font-size: 10px;
+	padding-bottom: 6px;
+}
+.intro-body{
+	font-size: 14px;
+	padding: 10px 14px;
+	line-height: 1.5;
+	color: #262626;
+}
+.intro-vd{
+	font-size: 14px;
+	color: #262626;
+	padding: 0 10px 20px;
+}
+.intro-vd-title{
+	padding-bottom: 10px;
+}
+.intro-vd video{
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,19 @@
+.header{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #e54847;
+	color: #fff;
+	font-size: 15px;
+}
+.header .left{
+	position: absolute;
+	left: 10px;
+	line-height: 40px;
+}
+.header .right{
+	position: absolute;
+	right: 10px;
+	line-height: 40px;
+}
